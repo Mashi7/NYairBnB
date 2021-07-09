@@ -1,5 +1,5 @@
 # NYairBnB
-Small project of data analysis and machine learning of New York AirBnB Data (kaggle.com/dgomonov/new-york-city-airbnb-open-data) in Python.
+Data analysis and machine learning of New York AirBnB Data (kaggle.com/dgomonov/new-york-city-airbnb-open-data) in Python.
 
 ## NYstats 
 contains statistical analysis with geo plotting that was later used to determine feature selection in ML section. Analysis is comprised of:
