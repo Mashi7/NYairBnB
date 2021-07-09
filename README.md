@@ -16,7 +16,7 @@ contains statistical analysis with geo plotting that was later used to determine
 
 * bar chart to show median and mean listing price per district and differences between them
 
-* correlation heatmap for features
+* correlation heatmap of dataset features
 
 * scatterplot showing correlation of `number_of_reviews` with `price` for listings divided into `room_type`
 
