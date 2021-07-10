@@ -22,8 +22,8 @@ df['pricelog'] = np.log10(df["price"]) + 1      # use log10 to check if it smoot
 
 groupby = df.groupby(['neighbourhood_group'])
 
-streetmap = gpd.read_file(
-    "C:/Users/Mateusz/Desktop/NYproject/MAPS1/geo_export_b11fa371-dd25-4311-8aa2-0efcd25bb4dd.shp")
+streetmap = gpd.read_file("geo_export_b11fa371-dd25-4311-8aa2-0efcd25bb4dd.shp")
+
 crs = {'init': 'epsg:4326'}
 geometry = [Point(xy) for xy in zip(df["longitude"], df["latitude"])]
 
